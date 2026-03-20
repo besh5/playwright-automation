@@ -22,7 +22,7 @@ test("Set window size", async ({ page }) => {
 
     await page.goto("https://the-internet-5chk.onrender.com/");
     //await page.setViewportSize({ width: 800, height: 600 });
-    await page.waitForTimeout(4000);
+    
 
 
 });

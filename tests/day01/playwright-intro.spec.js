@@ -4,7 +4,7 @@ import { test } from "@playwright/test"; // new way of importing test function f
 test("Simple Google test", async ({ page }) => {
   //test code goes here
   await page.goto("https://www.google.com");
-  await page.waitForTimeout(2000);
+  
 });
 
 

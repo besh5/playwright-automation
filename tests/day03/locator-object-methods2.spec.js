@@ -16,7 +16,7 @@ test.describe("Text and Attribute Methods", () => {
     await inputLink.click();
     let inputBox = page.locator("//input[@type='number']");
     await inputBox.fill("12345");
-    await page.waitForTimeout(2000);
+    
     let valueOfInputBox = await inputBox.inputValue();
     console.log(valueOfInputBox);
   });
