@@ -8,7 +8,6 @@
     "test:specific": "npx playwright test --grep playwright-intro.spec.js",
     "test:tag": "npx playwright test --grep @test1",
     "report": "npx playwright show-report"
-    
   },
   "keywords": [],
   "author": "",
@@ -16,6 +15,8 @@
   "type": "commonjs",
   "devDependencies": {
     "@playwright/test": "^1.58.2",
-    "@types/node": "^25.5.0"
+    "@types/node": "^25.5.0",
+    "allure-commandline": "^2.38.1",
+    "dotenv": "^17.3.1"
   }
 }
