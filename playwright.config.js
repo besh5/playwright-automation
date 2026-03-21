@@ -1,5 +1,5 @@
 // @ts-check
-import { defineConfig, devices } from '@playwright/test';
+import { defineConfig, devices } from "@playwright/test";
 
 /**
  * Read environment variables from file.
@@ -31,7 +31,13 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: "on-first-retry",
-    //screenshot: "on-first-failure" 
+    screenshot: "on-first-failure",
+    //video: "retain-on-failure",
+    /*
+    video: {
+      mode: "retain-on-failure", size: { width: 1512, height: 982 }
+    },
+    */
     //headless: false,
   },
 
@@ -83,4 +89,3 @@ export default defineConfig({
   //   reuseExistingServer: !process.env.CI,
   // },
 });
-
