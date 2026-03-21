@@ -1,11 +1,11 @@
 import { test } from "@playwright/test";
 
-test.describe("Text and Attribute Methods", () => {
+test.describe("Text and Attribute Methods ", () => {
   test.beforeEach(async ({ page }) => {
     await page.goto("https://the-internet-5chk.onrender.com/");
   });
 
-  test("innerText()", async ({ page }) => {
+  test("innerText() @wip", async ({ page }) => {
     let actualHeaderText = await page.locator("//h1").innerText();
     console.log(actualHeaderText);
   });
