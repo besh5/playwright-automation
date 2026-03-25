@@ -9,7 +9,7 @@
     "test:specific:headless": "npx playwright test --grep locator-object-methods2.spec.js",
     "test:specific:headed": "npx playwright test --headed --grep locator-object-methods2.spec.js",
     "test:tag:headless": "npx playwright test --grep @wip",
-    "test:tag:headed": "npx playwright test --headed --grep @wip",
+    "test:tag:headed": "npx playwright test --headed --grep @alerts",
     "report": "npx playwright show-report"
   },
   "keywords": [],

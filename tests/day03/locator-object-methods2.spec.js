@@ -19,6 +19,7 @@ test.describe("Text and Attribute Methods ", () => {
     
     let valueOfInputBox = await inputBox.inputValue();
     console.log(valueOfInputBox);
+    window.scroll
   });
 
   test("getAttribute()", async ({ page }) => {

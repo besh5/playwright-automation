@@ -38,7 +38,7 @@ export default defineConfig({
       mode: "retain-on-failure", size: { width: 1512, height: 982 }
     },
     */
-    //headless: false,
+    headless: false,
   },
 
   /* Configure projects for major browsers */
